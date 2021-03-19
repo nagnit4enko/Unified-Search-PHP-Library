@@ -1,0 +1,43 @@
+{
+  "name": "prodvnet/usearch",
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "description": "Prodvnet Unified Search library",
+  "keywords": [
+    "prodvnet",
+    "Unified Search"
+  ],
+  "homepage": "http://prodv.net/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "prodvnet",
+      "email": "php-devel-2@prodv.net",
+      "homepage": "http://prodv.net/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "guzzlehttp/guzzle": "~6.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Prodvnet\\UnifiedSearch\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Prodvnet\\UnifiedSearch\\Test\\": "tests"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev": "1.0-dev",
+      "master": "1.0"
+    }
+  }
+}
